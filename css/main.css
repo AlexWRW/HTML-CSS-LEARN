@@ -1,0 +1,221 @@
+* {
+    font-family: 'roboto', sans-serif;
+}
+
+header {
+    background-color: #212121;
+    position: relative;
+}
+
+header nav {
+    min-height: 50.73px;
+}
+
+.box {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+    position: fixed;
+    background-color: #212121;
+}
+
+
+
+.menu .menu_link {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader {
+    position: absolute;
+    width: 100%;
+    height: 87px;
+    background: rgba(0, 0, 0, .6);
+  
+}
+
+.subheader .uberlogo_text {
+    font-weight: 200;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.subheader_logo {
+    display: block;
+    min-width: 100%;
+    padding-top: 16.76px;
+}
+
+.uberlogo_tel_calleveryday {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    padding-top: 21.76px;
+    padding-left: 28px;
+    
+}
+
+.uberlogo_tel {
+    font-size: 22px;
+    line-height: 35px;
+    color: #FFFFFF;
+   text-align: center;
+}
+
+.uberlogo_btn {
+    margin-top: 19.76px;
+    width: 162px;
+    height: 46px;   
+    background-image: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 46px;
+    text-transform: uppercase;
+    padding: 0;
+    transition: all 0.5s ease;
+}
+
+.subheader_tel {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.promo {
+    min-height: 800px;
+    background: url(../img/bg/uber_bg.png) center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+
+.promo .promo_header {
+    font-weight: 900;
+    font-size: 60px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.promo .promo_subheader {
+    font-weight: 900;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.promo .promo_text {
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.promo_btn {
+    width: 259px;
+    height: 63px;   
+    background-image: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 46px;
+    text-transform: uppercase;
+    padding: 0;
+    transition: all 0.5s ease;
+    display: block;
+    margin: 0 auto;
+    margin-top: 115px;
+}
+
+.reason {
+    min-height: 849px;
+}
+
+.edge {
+    display: block;
+    margin: 0 auto;
+    width: 115px;
+    height: 27px;
+    font-size: 11px;
+    color: #FFFFFF;
+    background: #000000;
+    margin-top: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.eight {
+    text-align: center;
+    font-size: 38px;
+    color: #222222;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 32px;
+    margin-bottom: 0;
+}
+
+.eight_circle {
+    height: 116px;
+    width: 116px;
+    border-radius: 116px;
+    background: #1EACC7;
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.eight_item {
+    width: 371px;
+    color: #202020;
+    font-size: 15px;
+    line-height: 21px;
+    align-items: center;
+}
+
+.eight_item span {
+    font-size: 17px;
+    line-height: 21px;
+    color: #1EACC7;
+}
+
+.flex {
+    display: flex;
+    margin: 0 auto; 
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+
+.eight_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.reason .row {
+    margin-top: 16px;
+}
+
